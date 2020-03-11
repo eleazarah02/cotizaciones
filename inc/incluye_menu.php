@@ -37,7 +37,7 @@
                     </ul>
                 </li class="dropdown">
                     
-                        <li><a href="refacciones_seleccionar_marca.php">Consulta Marcas</a></li>
+                        <li><a href="ver_marcas.php">Consulta Marcas</a></li>
                
             
             </ul>

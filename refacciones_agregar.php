@@ -7,7 +7,7 @@ $nombre_marca_seleccionada = $_GET['marca_nombre'];
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Agregar refacci&oacute;n</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--código que incluye Bootstrap-->
@@ -21,6 +21,7 @@ $nombre_marca_seleccionada = $_GET['marca_nombre'];
         <!--termina código que incluye el menú responsivo-->
         <div class="container">
             <div class="jumbotron">
+                 <h1>Refacci&oacute;n para la marca <?php echo $nombre_marca_seleccionada ?></h1>
                 <form role="form" id="login-form" method="post" class="form-signin" action="refacciones_guardar.php">
                     <div class="h2">
                         Detalles de la refacci&oacute;n
@@ -49,7 +50,7 @@ $nombre_marca_seleccionada = $_GET['marca_nombre'];
                     </div>
                     <br>
                     <button type="submit" class="btn btn-primary">Guardar</button>
-                    <input type="reset" class="btn btn-default" value="Limpiar">
+                    <input type="reset" class="btn btn-danger" value="Limpiar">
                 </form>
             </div>
         </div>

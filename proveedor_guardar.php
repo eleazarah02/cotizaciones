@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header("Location: alerta.php?tipo=exito&operacion=Proveedor Guardado&destino=proveedor_registrar.php");
     }
     else{
-        header("Location: alerta.php?tipo=fracaso&operacion=Proveedor No Guardado&destino=proveedor_registrar.php");
+        header("Location: alerta.php?tipo=fracaso&operacion=Error al insertar Proveedor&destino=proveedor_registrar.php");
     }
     $ins->close();
     $con->close();

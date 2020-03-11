@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Seleccionar una Marca para agregar nueva Refacci&oacute;n</title>
+        <title>Seleccionar Marca</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--código que incluye Bootstrap-->
@@ -26,7 +26,8 @@
                 $res = $sel->get_result();
                 $row = mysqli_num_rows($res);
             ?>
-            <center><h3>Selecciona nombre de la marca para agregar refaccion</h3></center><br>
+             <h1>Registrar una refacci&oacute;n</h1>
+
     Elementos devueltos por la consulta: <?php echo $row ?>
  
     <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">

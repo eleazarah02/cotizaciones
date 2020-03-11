@@ -11,10 +11,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $ins=$con->prepare("INSERT INTO sucursal_prov VALUES(?,?,?,?,?,?,?)");
     $ins->bind_param("iisssss",$id_sucursal,$id_proveedor,$nombre_de_sucursal_post,$direccion_de_sucursal_post,$telefono_1_post,$telefono_2_post,$correo_sucursal_post);
     if($ins->execute()){
-        echo "Se ha registrado la sucursal";
+        header("Location: alerta.php?tipo=exito&operacion=Se ha registrado la sucursal&destino=sucursal_registrar.php");
+        // echo "Se ha registrado la sucursal";
     }
     else{
-        echo "Error al insertar sucursal";
+        header("Location: alerta.php?tipo=fracaso&operacion=Error al insertar sucursal&destino=sucursal_registrar.php");
+       // echo "Error al insertar sucursal";
     }
     $ins->close();
     $con->close();

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Agregar proveedor</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--código que incluye Bootstrap-->
@@ -34,16 +34,26 @@
                         <input type="text" class="form-control" id="direccion_del_proveedor" name="direccion_del_proveedor"
                                placeholder="Ingresa direcci&oacute;n (Tienda matriz)" style="text-transform:uppercase;">
                     </div>
+                    <script type="text/javascript">
+                        function Numeros(string){
+                        var out = '';
+                        var filtro = '1234567890';
+                        for (var i=0; i<string.length; i++)
+                            if (filtro.indexOf(string.charAt(i)) != -1)
+                                out += string.charAt(i);
+                            return out;
+                        } 
+                    </script>
 
                     <div class="form-group">
                         <label>Tel&eacute;fono 1</label>
                         <input type="tel" class="form-control" id="telefono_1" name="telefono_1"
-                               placeholder="Ingresa primer tel&eacute;fono" style="text-transform:uppercase;">
+                               placeholder="Ingresa primer tel&eacute;fono" maxlength="10" onkeyup="this.value=Numeros(this.value)" style="text-transform:uppercase; ">
                     </div>
 
                     <label>Tel&eacute;fono 2</label>
                     <input type="tel" class="form-control" id="telefono_2" name="telefono_2"
-                           placeholder="Ingresa segundo tel&eacute;fono" style="text-transform:uppercase;">
+                           placeholder="Ingresa segundo tel&eacute;fono" maxlength="10" onkeyup="this.value=Numeros(this.value)" style="text-transform:uppercase;">
                     <br>
                     <div class="form-group">
                         <label for="correo_proveedor">Correo electr&oacute;nico</label>
@@ -54,7 +64,7 @@
                     </div>
                     <br>
                     <button type="submit" class="btn btn-primary">Guardar</button>
-                    <input type="reset" class="btn btn-default" value="Limpiar">
+                    <input type="reset" class="btn btn-danger" value="Limpiar">
                 </form>
             </div>
         </div>
