@@ -24,7 +24,7 @@
                         <li><a href="proveedor_registrar.php">Agregar un Proveedor</a></li>
                         <li><a href="sucursal_registrar.php">Agregar una sucursal</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Gestionar Proveedores</a></li>
+                        <li><a href="refacciones_seleccionar_refaccion.php">Gestionar Proveedores</a></li>
                     </ul>
                 </li>
                  
