@@ -20,7 +20,7 @@ if ($row != 0) {
     echo "<a href=\"index_refacciones.php\" class=\"btn btn-default\" role=\"button\"> CANCELAR </a>";*/
 } else {
     $ins = $con->prepare("INSERT INTO refaccion_proveedor VALUES(?,?,?,?,?)");
-    $ins->bind_param("iiidi", $refaccion_proveedor_id, $refaccion_id_post, $nombre_proveedor_post, $fecha_solicitud_post, $precio_post);
+    $ins->bind_param("iiisd", $refaccion_proveedor_id, $refaccion_id_post, $nombre_proveedor_post, $fecha_solicitud_post, $precio_post);
     if ($ins->execute()) {
         header("Location: alerta.php?tipo=exito&operacion=Refacción Guardada&destino=refacciones_seleccionar_refaccion.php");
        /* echo "Refacci&oacute;n guardada <br> Ahora debes agregarle un precio de proveedor (si no lo haces puedes provocar p&eacute;rdida de informaci&oacute;n) --";

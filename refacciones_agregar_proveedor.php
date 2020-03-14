@@ -44,6 +44,7 @@ $nombre_refaccion_seleccionada = $_GET['refaccion_nombre'];
                     <div class="form-group">
                         <label for="proveedor">Nombre del proveedor:</label>
                         <select id="proveedor" name="proveedor" class="form-control">
+                            <option value="" disabled selected>SELECCIONE PROVEEDOR</option>
                 <?php while ($r = $res->fetch_assoc()) { ?>
                     <option value="<?php echo $r['proveedor_id'] ?>"><?php echo $r['proveedor_nombre'] ?></option>
                 <?php } ?>
