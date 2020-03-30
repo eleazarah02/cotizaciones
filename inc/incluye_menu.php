@@ -24,7 +24,7 @@
                         <li><a href="proveedor_registrar.php">Agregar un Proveedor</a></li>
                         <li><a href="sucursal_registrar.php">Agregar una sucursal</a></li>
                         <li class="divider"></li>
-                        <li><a href="refacciones_seleccionar_refaccion.php">Gestionar Proveedores</a></li>
+                        <li><a href="ver_proveedores.php">Gestionar Proveedores</a></li>
                     </ul>
                 </li>
                  
@@ -32,6 +32,7 @@
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Refacciones<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="refacciones_seleccionar_marca.php">Agregar una refacci&oacute;n</a></li>
+                        <li><a href="refacciones_seleccionar_refaccion.php">Agregar Proveedor a refacci&oacute;n</a></li>
                         <li class="divider"></li>
                         <li><a href="ver_refaccion.php">Consulta rápida</a></li>
                     </ul>
