@@ -8,13 +8,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">INICIO</a>
+            <a href="index.php" class="navbar-brand">INICIO</a>
         </div>
         <!-- Collection of nav links, forms, and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="#">Cotizaciones</a></li>
+                <li class="active"><a href="cotizacion_inicia.php">Cotizaciones</a></li>
                 <!-- ELEMENTOS INDIVIDUALES DEL MENÚ
                 <li><a href="#">Cotizaciones</a></li>
                  -->
@@ -31,10 +31,11 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Refacciones<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="refacciones_seleccionar_marca.php">Agregar una refacci&oacute;n</a></li>
+                        <li><a href="refacciones_seleccionar_marca.php">Agregar una Refacci&oacute;n</a></li>
+
                         <li><a href="refacciones_seleccionar_refaccion.php">Agregar Proveedor a refacci&oacute;n</a></li>
                         <li class="divider"></li>
-                        <li><a href="ver_refaccion.php">Consulta rápida</a></li>
+                        <li><a href="ver_refaccion.php">Consulta Refacciones</a></li>
                     </ul>
                 </li class="dropdown">
                     
