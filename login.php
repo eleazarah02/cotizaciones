@@ -16,6 +16,7 @@
         <?php include'inc/incluye_menu.php' ?>
         <!--termina código que incluye el menú responsivo-->
         <div class="container">
+            <div class="jumbotron">
                  <div class="jumbotron">
         <form role="form" id="login-form" method="post" class="form-signin" action="login_verificar.php">
         <div class="h2">
@@ -33,6 +34,7 @@
             <button type="submit" class="btn btn-primary">Guardar</button>
         </form>
     </div>
+</div>
 </div>
     </body>
 </html>
