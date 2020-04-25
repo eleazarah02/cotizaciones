@@ -4,3 +4,4 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <link href="../css/cotizacionesEstilos.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" href="img/logo-refacciones.png"/>

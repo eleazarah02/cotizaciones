@@ -87,7 +87,7 @@ cotizacion_detalle_temporal.cotizacion_detalle_incremento_temporal,cotizacion_de
                 </div>
                 <div class="h2">
                     <p> <a href="cotizacion_seleccionar_refaccion_marca.php" class="btn btn-primary" role="button">A&ntilde;adir m&aacute;s refacciones</a></p>
-                    <p> <a href="cotizacion_imprimir.php" target="_blank" class="btn btn-info" role="button">Imprimir esta cotizaci&oacute;n</a></p>
+                    <p> <a href="cotizacion_imprimirpdf.php" target="_blank" class="btn btn-info" role="button">Imprimir esta cotizaci&oacute;n</a></p>
                     <p> <a href="cotizacion_guardar.php" class="btn btn-success" role="button">Guardar esta cotizaci&oacute;n</a></p>
                     <p> <a href="cotizacion_eliminar.php" class="btn btn-danger" role="button">Eliminar esta cotizaci&oacute;n</a></p>
                 </div>

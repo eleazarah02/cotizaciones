@@ -13,6 +13,7 @@
         <link href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" href="img/logo-refacciones.png"/>
 
     </head>
     <body>
@@ -21,8 +22,15 @@
         <!--termina código que incluye el menú responsivo-->
         <div class="container">
             <div class="jumbotron">
-                INDEX
-
+                <center>
+                    <div class="h1">
+                        REFACCIONARIA SHERIFFMANIA
+                    </div>
+                <div class="h2">
+                        Bienvenido
+                    </div>
+                <img src="img/logo-refacciones.png" class="img-responsive" width=50%>
+                </center>
             </div>
         </div>
 

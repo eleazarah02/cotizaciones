@@ -32,6 +32,7 @@ $total = 0;
         <!-- CSS de Bootstrap -->
     </head>
     <body>
+    	<div id="content">
         <div><img src="img/header.jpg" alt=""/> </div>
         <br><br>
         <div class="h2">
@@ -107,5 +108,28 @@ $total = 0;
                     mecanico@gmail.com<br>
                 </i></p>
         </div>
-    </body>
+    </div>
+    <div id="elementH">
+    	<h2>Prueba de documento</h2>
+    </div>
+    <script type="text/javascript">
+    	var doc = new jsPDF();
+    	var elementHTML = $('#content').html();
+    	var specialElementHandlers = {
+    	    '#elementH': function (element, renderer) {
+    	            return true;
+    	                }
+    	            };
+    	            doc.fromHTML(elementHTML, 15, 15, {
+    	                'width': 170,
+    	                    'elementHandlers': specialElementHandlers
+    	                });
+
+// Save the PDF
+		doc.save('cotizacion.pdf');
+    </script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jspdf.min.js"></script>
 </html>
+    </body>
+    

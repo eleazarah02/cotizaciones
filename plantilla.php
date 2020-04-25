@@ -8,6 +8,7 @@
         <!--código que incluye Bootstrap-->
         <?php include'inc/incluye_bootstrap.php' ?>
         <!--termina código que incluye Bootstrap-->
+        <link rel="icon" href="img/logo-refacciones.png"/>
 
     </head>
     <body>
